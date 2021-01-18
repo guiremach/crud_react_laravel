@@ -20,7 +20,6 @@ $ composer install
 CREATE DATABASE `laravel`; // ou outro banco cfe configurado acima
 ````
 ````
-
 #gere uma chave 
 $ php artisan key:generate
 ````
@@ -31,7 +30,13 @@ $ php artisan migrate:fresh
 $ php artisan serve
 ````
 ````
-# Em outro bash(DOS), excute o yarn install para configurção e o yarn start para inciar a aplicação.
+````
+````
+# Em outro bash(DOS), execute o yarn install para configurção e o yarn start para inciar a aplicação.
+````
+````
+$ cd frontend
+
 $ yarn install
 ````
 ````
